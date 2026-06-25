@@ -1,16 +1,16 @@
-# 🏦 Task 3: Customer Churn Prediction (Bank Customers)
+# Task 3: Customer Churn Prediction (Bank Customers)
 
 > **DevelopersHub Corporation — Data Science & Analytics Internship**
 
 ---
 
-## 📌 Objective
+## Objective
 
 Predict whether a bank customer is likely to **leave (churn)** the bank based on their personal and account information. Early identification of at-risk customers allows banks to take proactive retention measures before losing them.
 
 ---
 
-## 📂 Dataset
+## Dataset
 
 **Churn Modelling Dataset**
 
@@ -39,7 +39,7 @@ Predict whether a bank customer is likely to **leave (churn)** the bank based on
 
 ---
 
-## 🔍 Approach
+## Approach
 
 ### 1. Exploratory Data Analysis (EDA)
 - Analyzed churn distribution across geography, gender, age groups
@@ -68,19 +68,19 @@ Three classification models were trained and compared:
 
 ---
 
-## 📊 Results
+## Results
 
 | Model | Accuracy |
 |-------|----------|
 | Logistic Regression | ~79% |
 | Decision Tree | ~83% |
-| **Random Forest** ✅ | **~86%** |
+| **Random Forest** | **~86%** |
 
-**🏆 Best Model: Random Forest Classifier (~86% accuracy)**
+**Best Model: Random Forest Classifier (~86% accuracy)**
 
 ---
 
-## 💡 Key Insights
+## Key Insights
 
 1. **Age** is the strongest predictor of churn — customers aged **40–60** are most at risk
 2. **Germany** has the highest churn rate among all regions
@@ -91,7 +91,7 @@ Three classification models were trained and compared:
 
 ---
 
-## 📁 Repository Structure
+## Repository Structure
 
 ```
 Task3-Customer-Churn-Prediction/
@@ -103,7 +103,7 @@ Task3-Customer-Churn-Prediction/
 
 ---
 
-## 🛠️ Libraries Used
+## Libraries Used
 
 ```python
 pandas, numpy, matplotlib, seaborn, scikit-learn
@@ -111,7 +111,7 @@ pandas, numpy, matplotlib, seaborn, scikit-learn
 
 ---
 
-## ▶️ How to Run
+## How to Run
 
 ```bash
 # 1. Clone the repository
@@ -129,8 +129,7 @@ jupyter notebook Task3_Customer_Churn_Prediction.ipynb
 
 ---
 
-## 👤 Author
+## Author
 
-**[Your Name]**
+Nabeeha Shakeel
 Data Science & Analytics Intern — DevelopersHub Corporation
-[Your LinkedIn] | [Your GitHub]
